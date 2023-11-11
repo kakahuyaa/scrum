@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-      <category>
-        <pattern>XIN CHÀO</pattern>
-        <template>Xin chào! Tôi có thể giúp gì cho bạn hôm nay ?</template>
-      </category>
+<aiml>
   <category>
-    <pattern>BẠN TÊN GÌ</pattern>
-    <template>Tên tôi là ChatBot. Tôi có thể giúp gì cho bạn?</template>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
   </category>
-  <category>
-    <pattern>THỜI TIẾT HÔM NAY NHƯ THẾ NÀO</pattern>
-    <template>Xin lỗi, tôi không có thông tin thời tiết thời gian thực. Bạn có thể kiểm tra trang web hoặc ứng dụng thời tiết.</template>
-  </category>
-  <category>
-   <pattern>TAM BIỆT</pattern>
-    <template>Tạm biệt! Nếu bạn có câu hỏi khác trong tương lai, đừng ngần ngại hỏi.</template>
-  </category>
-<category>
-  <pattern>THỜI TIẾT TẠI THÀNH PHỐ HỒ CHÍ MINH</pattern>
-  <template>Xin lỗi, tôi không có thông tin thời tiết thời gian thực tại THÀNH PHỐ HỒ CHÍ MINH. Hãy kiểm tra trang web hoặc ứng dụng thời tiết cho thông tin chi tiết.</template>
-</category>
-<category>
-  <pattern>THỜI TIẾT TRONG TUẦN</pattern>
-  <template>Để biết dự báo thời tiết trong tuần, bạn nên kiểm tra trang web hoặc ứng dụng thời tiết cụ thể.</template>
-</category>
-<category>
-  <pattern>TÔI ĐANG BUỒN</pattern>
-  <template>Nếu bạn buồn, bạn có thể nghe nhạc để thư giãn. Bạn muốn nghe một bản nhạc nào?</template>
-</category>
-<category>
-<pattern>tôi đang buồn muốn nge các bài tâm trạng</pattern>
-<template> nếu bạn buồn bạn có thể nge các bài của mr siro </template>
-</category>
-<category>
-  <pattern>TÔI MUỐN NGHE MR SIRO NHẠC</pattern>
-  <template>Được rồi, tôi sẽ tìm một số bài hat mr siro tâm trạng  cho bạn. Chờ một chút...</template>
-</category>
-<category>
-  <pattern>2 * 3 là bao nhiêu</pattern>
-  <template>6</template>
-</category>
-<category>
-  <pattern>*</pattern>
-  <template>Xin lỗi, tôi không hiểu câu hỏi của bạn.</template>
-</category>
 </aiml>
